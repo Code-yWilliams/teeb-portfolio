@@ -477,6 +477,12 @@ button {
   filter: saturate(0.96) contrast(1.02);
 }
 
+.hero__orbit-ring {
+  position: absolute;
+  inset: 0;
+  animation: hero-orbit-spin 240s linear infinite;
+}
+
 .orbit-stat {
   position: absolute;
   width: 116px;
@@ -491,6 +497,33 @@ button {
   text-align: center;
   padding: 6px;
   box-shadow: 0 6px 18px rgba(42, 58, 48, 0.07);
+  animation: hero-orbit-counter 240s linear infinite;
+}
+
+.hero__orbit:hover .hero__orbit-ring,
+.hero__orbit:hover .orbit-stat,
+.hero__orbit:focus-within .hero__orbit-ring,
+.hero__orbit:focus-within .orbit-stat {
+  animation-play-state: paused;
+}
+
+@keyframes hero-orbit-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hero-orbit-counter {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__orbit-ring,
+  .orbit-stat {
+    animation: none;
+  }
 }
 
 .orbit-stat__value {
