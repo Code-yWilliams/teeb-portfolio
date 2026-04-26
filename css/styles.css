@@ -191,7 +191,7 @@ button {
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  background: var(--color-forest);
+  background: var(--color-eucalyptus);
   color: var(--color-white);
   padding: 0.85rem 1.35rem;
   border-radius: 3px;
@@ -203,7 +203,9 @@ button {
 }
 
 .btn-primary:hover {
-  background: var(--color-eucalyptus);
+  background: var(--color-eucalyptus-light);
+  color: var(--color-eucalyptus);
+  border: 1px solid var(--color-eucalyptus);
   transform: translateY(-1px);
   box-shadow: 0 8px 22px rgba(42, 58, 48, 0.16);
 }

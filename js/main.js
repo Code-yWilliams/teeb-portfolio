@@ -100,8 +100,16 @@
   onScroll();
 
   // --- Active nav link tracking ---
-  const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a');
+  const linkedIds = new Set(
+    Array.from(navLinks)
+      .map((link) => link.getAttribute('href'))
+      .filter((href) => href && href.startsWith('#'))
+      .map((href) => href.slice(1))
+  );
+  const sections = Array.from(
+    document.querySelectorAll('section[id]')
+  ).filter((section) => linkedIds.has(section.id));
   const sectionObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
