@@ -1191,9 +1191,17 @@ button {
 
   .hero__text {
     padding: 40px 22px 56px;
+    align-items: center;
+    text-align: center;
   }
   .hero__name {
     font-size: 3rem;
+  }
+  .status-pill {
+    align-self: center;
+  }
+  .hero__pills {
+    justify-content: center;
   }
   .hero__cta {
     justify-content: center;
