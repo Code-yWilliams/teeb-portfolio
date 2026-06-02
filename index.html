@@ -3,545 +3,650 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christina Sookhoo · Project Manager</title>
+    <title>Christina Sookhoo, Marketing Strategist · Project Manager</title>
     <meta
       name="description"
-      content="Project manager with eight years moving complex, multi-workstream initiatives from scoping to delivery — on time, on budget, without the chaos."
+      content="Marketing strategist and project manager with 8+ years executing complex campaigns and projects across 20+ national brands. Los Angeles, CA."
     />
     <link
       rel="icon"
-      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%232A3A30' rx='14' width='100' height='100'/><text x='50' y='64' text-anchor='middle' fill='%23F5F0E8' font-family='serif' font-size='44' font-weight='400'>cs</text></svg>"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2312426A' rx='14' width='100' height='100'/><text x='50' y='64' text-anchor='middle' fill='%23FEFCF8' font-family='serif' font-size='44' font-weight='400'>cs</text></svg>"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Syne:wght@600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "x0hoon8r2y");
+    </script>
   </head>
   <body>
-    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
-
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-      <div class="container navbar__inner">
-        <a href="#hero" class="nav-logo">CHRISTINA SOOKHOO</a>
-        <button
-          class="nav-toggle"
-          id="navToggle"
-          aria-label="Toggle navigation"
-          aria-expanded="false"
-        >
-          <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#about">About</a></li>
-          <li><a href="#how">How I Work</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#tools">Tools</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+    <nav aria-label="Main navigation">
+      <span class="nav-tagline"
+        >Los Angeles, CA &nbsp;·&nbsp;
+        <span class="status-dot" aria-hidden="true"></span>Open to new
+        roles</span
+      >
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#what">What I do</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button
+        class="burger"
+        id="burger"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
     </nav>
 
-    <!-- Hero -->
-    <section class="hero" id="hero">
-      <div class="hero__inner">
-        <div class="hero__text">
-          <span class="status-pill"
-            ><span class="status-dot" aria-hidden="true"></span>Available for
-            new roles</span
-          >
-          <span class="eyebrow">Project Manager · Los Angeles, CA</span>
-          <h1 class="hero__name">Christina<span class="last">Sookhoo</span></h1>
-          <p class="hero__lede">
-            I take complex, multi-workstream projects from scoping to delivery —
-            on time, on budget, and without the chaos. Eight years doing it in
-            one of the most deadline-driven industries there is.
+    <!-- SIDEBAR -->
+    <aside class="sidebar" aria-label="Profile">
+      <div class="sb-photo-wrap">
+        <img
+          class="sb-photo"
+          src="assets/images/christina.png"
+          alt="Christina Sookhoo"
+        />
+        <div class="sb-photo-grad"></div>
+        <div class="sb-photo-tint"></div>
+      </div>
+      <div class="sb-body">
+        <div>
+          <div class="sb-name">Christina Sookhoo</div>
+          <div class="sb-title">Marketing Strategist · Project Manager</div>
+          <div class="sb-stats">
+            <div class="sb-stat">
+              <span class="sb-n">$15M+</span
+              ><span class="sb-l">Portfolio managed</span>
+            </div>
+            <div class="sb-stat">
+              <span class="sb-n">20+</span
+              ><span class="sb-l">Brands supported</span>
+            </div>
+            <div class="sb-stat">
+              <span class="sb-n">8+</span
+              ><span class="sb-l">Years experience</span>
+            </div>
+            <div class="sb-stat">
+              <span class="sb-n">60+</span
+              ><span class="sb-l">Franchise locations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="hero-layout">
+      <main class="main">
+        <!-- HERO STRIP -->
+        <section id="hero" class="hero-strip" aria-label="Introduction">
+          <p class="eyebrow">
+            Los Angeles, CA &nbsp;·&nbsp;
+            <span class="status-dot" aria-hidden="true"></span>Open to new roles
           </p>
-          <div class="hero__pills">
-            <span class="pill">Cross-functional coordination</span>
-            <span class="pill">Workflow design &amp; SOPs</span>
-          </div>
-          <div class="hero__pills">
-            <span class="pill pill--dark">Budget &amp; timeline mgmt</span>
-            <span class="pill pill--dark">Stakeholder communication</span>
-          </div>
-          <p class="hero__tools">Smartsheet · Asana · JIRA · Tableau</p>
-          <div class="hero__cta">
-            <!-- <a
-              href="assets/christina-sookhoo-resume.pdf"
-              class="btn-primary"
-              download
+          <h1 class="hero-headline">
+            I understand how marketing works,<br /><em
+              >and I make sure it gets executed.</em
             >
-              Download Resume
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                aria-hidden="true"
-              >
-                <path d="M12 5v14M5 12l7 7 7-7" />
-              </svg>
-            </a> -->
-            <a href="#projects" class="btn-primary">See Projects &rarr;</a>
+          </h1>
+          <p class="hero-tag">
+            Eight years building campaigns, running complex projects, and
+            turning strategy into real outcomes across 20+ national brands.
+          </p>
+          <div class="pills">
+            <span class="pill-a">Marketing strategy</span>
+            <span class="pill-a">Project management</span>
+            <span class="pill-b">Campaign operations</span>
+            <span class="pill-n">HubSpot · Tableau · Smartsheet · Asana</span>
           </div>
-        </div>
-        <div class="hero__photo">
-          <div class="hero__orbit">
-            <div class="hero__portrait">
-              <img src="assets/images/christina.png" alt="Christina Sookhoo" />
-            </div>
-            <div class="hero__orbit-ring">
-              <div class="orbit-stat orbit-stat--tl">
-                <span class="orbit-stat__value" data-count="8" data-suffix="+"
-                  >8+</span
-                >
-                <span class="orbit-stat__label">Years<br />PM Experience</span>
-              </div>
-              <div class="orbit-stat orbit-stat--tr">
-                <span
-                  class="orbit-stat__value"
-                  data-count="15"
-                  data-prefix="$"
-                  data-suffix="M+"
-                  >$15M+</span
-                >
-                <span class="orbit-stat__label">Portfolio<br />Managed</span>
-              </div>
-              <div class="orbit-stat orbit-stat--bl">
-                <span
-                  class="orbit-stat__value"
-                  data-count="2"
-                  data-prefix="$"
-                  data-suffix="M"
-                  >$2M</span
-                >
-                <span class="orbit-stat__label">Incremental<br />Revenue</span>
-              </div>
-              <div class="orbit-stat orbit-stat--br">
-                <span class="orbit-stat__value" data-count="3" data-suffix="-yr"
-                  >3-yr</span
-                >
-                <span class="orbit-stat__label">Exclusivity<br />Secured</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          <a href="#what" class="cta-link">What I do ↓</a>
+          <a href="#projects" class="cta-link">See projects ↓</a>
+        </section>
 
-    <!-- About -->
-    <section class="about section" id="about">
-      <div class="container">
-        <span class="section__label">About</span>
-        <h2 class="section__title">I make sure things actually get done.</h2>
-        <div class="about__body" data-animate>
-          <p>
-            For eight years I've been the person that complex, high-stakes
-            projects depend on. I've managed a $15M+ portfolio of multi-channel
-            initiatives — scoping projects, building timelines, coordinating
-            across data, creative, production, and leadership teams, and making
-            sure the work lands on time, within budget, and at the right quality
-            bar.
+        <!-- ABOUT -->
+        <section id="about" class="s-warm section reveal" aria-label="About">
+          <p class="eyebrow">About</p>
+          <h2 class="sec-title">
+            I close the gap between strategy and results.
+          </h2>
+          <p class="body-text">
+            I've spent eight years at the intersection of marketing thinking and
+            operational discipline, managing campaigns, coordinating
+            cross-functional teams, and building the systems that make complex
+            work run smoothly. I do my best work in structured, collaborative
+            environments where thoughtful planning and clear communication drive
+            results. I'm known for being autonomous, organized, and deeply
+            committed to the people and teams I support.
           </p>
-          <p>
-            My background is in marketing operations, which is one of the most
-            demanding PM environments there is. Simultaneous workstreams, hard
-            external deadlines, multiple vendors, senior stakeholders who need
-            answers fast. Earlier in my career I worked directly with
-            franchisees across 60+ locations — so I understand both sides of the
-            client/vendor relationship.
+          <p class="body-text">
+            My background spans $15M+ in campaign portfolios across 20+ national
+            brands in restaurants, wellness, retail, and more. Earlier in my
+            career I worked directly with franchisees across 60+ locations, so I
+            understand both sides of every client relationship. I anticipate
+            needs, make sense of ambiguous situations, and keep priorities on
+            track even when things get complicated.
           </p>
-          <blockquote class="about__quote">
-            "Colleagues have called me the velvet hammer — approachable and
-            supportive, but firm about deadlines, quality, and follow-through."
+          <p class="body-text" style="color: #5a5248">
+            Outside of work, I'm creative and wellness-oriented. I paint,
+            crochet, and explore new crafts, which keeps me curious,
+            detail-focused, and brings steady energy to everything I do.
+          </p>
+          <blockquote>
+            <p>
+              "Colleagues have called me the velvet hammer, approachable and
+              supportive, but firm about deadlines, quality, and
+              follow-through."
+            </p>
           </blockquote>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- How I Work -->
-    <section class="how section" id="how">
-      <div class="container">
-        <span class="section__label">How I Work</span>
-        <h2 class="section__title">What I bring to every project.</h2>
-        <div class="how__grid">
-          <div class="how-card" data-animate>
-            <span class="how-card__num">01</span>
-            <h3 class="how-card__title">Structure from ambiguity</h3>
-            <p class="how-card__body">
-              I scope the work, identify owners, build the timeline, and get
-              alignment — so execution doesn't stall while people figure out
-              who's responsible for what.
-            </p>
-          </div>
-          <div class="how-card" data-animate>
-            <span class="how-card__num">02</span>
-            <h3 class="how-card__title">Cross-functional coordination</h3>
-            <p class="how-card__body">
-              Eight years translating between creative, data, production, and
-              leadership. I hold projects together when each team has different
-              priorities and languages.
-            </p>
-          </div>
-          <div class="how-card" data-animate>
-            <span class="how-card__num">03</span>
-            <h3 class="how-card__title">Proactive risk management</h3>
-            <p class="how-card__body">
-              I flag problems before they become blockers. Clear escalation
-              paths and contingency thinking built into every plan from day one.
-            </p>
-          </div>
-          <div class="how-card" data-animate>
-            <span class="how-card__num">04</span>
-            <h3 class="how-card__title">Process that sticks</h3>
-            <p class="how-card__body">
-              SOPs, intake workflows, Smartsheet and Asana systems, leadership
-              dashboards. Infrastructure that makes the whole team faster — not
-              just me.
-            </p>
-          </div>
-          <div class="how-card" data-animate>
-            <span class="how-card__num">05</span>
-            <h3 class="how-card__title">Budget &amp; timeline discipline</h3>
-            <p class="how-card__body">
-              I've owned PM tracking for $15M+ in projects. I know what slippage
-              costs and how to prevent it without sacrificing quality or team
-              morale.
-            </p>
-          </div>
-          <div class="how-card" data-animate>
-            <span class="how-card__num">06</span>
-            <h3 class="how-card__title">Executive-ready communication</h3>
-            <p class="how-card__body">
-              Clear, decision-ready status for senior stakeholders. No burying
-              the lead — just what they need to act on.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience -->
-    <section class="experience section" id="experience">
-      <div class="container">
-        <span class="section__label">Experience</span>
-        <h2 class="section__title">Where I built my expertise.</h2>
-        <div class="timeline">
-          <div class="timeline__item" data-animate>
-            <div class="timeline__date">2023 — Present</div>
-            <div class="timeline__content">
-              <h3 class="timeline__role">
-                Senior Project &amp; Client Services Manager
-              </h3>
-              <span class="timeline__company">Triadex Services</span>
-              <ul class="timeline__details">
-                <li>
-                  Led end-to-end delivery of a $15M+ portfolio — managing scope,
-                  timelines, budgets, risk, and cross-functional issues across
-                  15+ concurrent initiatives
-                </li>
-                <li>
-                  Standardized PM frameworks and workflows, reducing delivery
-                  cycle times and improving visibility across teams
-                </li>
-                <li>
-                  Built executive reporting dashboards in Tableau, translating
-                  complex data into clear stakeholder-ready insights
-                </li>
-                <li>
-                  Mentored junior team members on project coordination,
-                  communication, and analytical thinking
-                </li>
-              </ul>
+        <!-- STATS BAND -->
+        <div class="stats-band" aria-label="Key statistics">
+          <div class="stats-inner">
+            <div class="sb-item">
+              <div class="sb-metric">$2M</div>
+              <div class="sb-label">Client revenue retained</div>
             </div>
-          </div>
-          <div class="timeline__item" data-animate>
-            <div class="timeline__date">2019 — 2023</div>
-            <div class="timeline__content">
-              <h3 class="timeline__role">
-                Client Services Manager / Project Manager
-              </h3>
-              <span class="timeline__company">Triadex Services</span>
-              <ul class="timeline__details">
-                <li>
-                  Managed full project lifecycle from intake to delivery for a
-                  diverse national brand portfolio
-                </li>
-                <li>
-                  Built Smartsheet tracking systems and SOPs that standardized
-                  production and reduced errors across teams
-                </li>
-                <li>
-                  Partnered with senior leadership on strategic proposals,
-                  contributing to scope, timelines, and resource planning
-                </li>
-              </ul>
+            <div class="sb-item">
+              <div class="sb-metric">10+</div>
+              <div class="sb-label">A/B tests run across campaigns</div>
             </div>
-          </div>
-          <div class="timeline__item" data-animate>
-            <div class="timeline__date">2017 — 2019</div>
-            <div class="timeline__content">
-              <h3 class="timeline__role">
-                Marketing Coordinator / Operations Assistant
-              </h3>
-              <span class="timeline__company">
-                Perian Management · 60+ Franchise Locations
-              </span>
-              <ul class="timeline__details">
-                <li>
-                  Coordinated campaigns and operations across 60+ franchise
-                  locations — working directly with franchisees as both client
-                  and vendor
-                </li>
-                <li>
-                  Facilitated weekly stakeholder meetings, managed vendors and
-                  logistics, and executed community events
-                </li>
-              </ul>
+            <div class="sb-item">
+              <div class="sb-metric">2x</div>
+              <div class="sb-label">Client revenue growth, year over year</div>
+            </div>
+            <div class="sb-item">
+              <div class="sb-metric">6+</div>
+              <div class="sb-label">Internal teams coordinated</div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Projects -->
-    <section class="projects section" id="projects">
-      <div class="container">
-        <span class="section__label">Selected Projects</span>
-        <h2 class="section__title">Real outcomes from good PM.</h2>
-        <div class="projects__grid">
-          <article class="case-card" data-animate>
-            <div class="case-card__body">
-              <span class="case-card__tag">Client Rescue · Delivery</span>
-              <h3 class="case-card__title">
-                At-risk client recaptured through compressed-timeline execution.
-              </h3>
-              <p class="case-card__text">
-                Built a tight cross-functional plan when a client was
-                considering leaving, coordinated teams to expedite without
-                cutting corners, and managed stakeholder calm through every
-                review.
-              </p>
-            </div>
-            <div class="case-card__result">
-              <span
-                class="case-card__result-num"
-                data-count="2"
-                data-prefix="$"
-                data-suffix="M"
-                >$2M</span
-              >
-              <span class="case-card__result-label"
-                >Incremental revenue<br />the following year</span
-              >
-            </div>
-          </article>
+        <div class="full-rule"></div>
 
-          <article class="case-card" data-animate>
-            <div class="case-card__body">
-              <span class="case-card__tag">Process Redesign</span>
-              <h3 class="case-card__title">
-                PM system overhaul transforms team visibility and delivery
-                speed.
-              </h3>
-              <p class="case-card__text">
-                Assessed leaks, built SOPs and dashboards, led training. Drove
-                adoption from the ground up and delivered measurable efficiency
-                gains within year one.
-              </p>
-            </div>
-            <div class="case-card__result">
-              <span
-                class="case-card__result-num"
-                data-count="20"
-                data-prefix="−"
-                data-suffix="%"
-                >−20%</span
-              >
-              <span class="case-card__result-label"
-                >Delivery time · 20%<br />revenue growth yr 1</span
-              >
-            </div>
-          </article>
-
-          <article class="case-card" data-animate>
-            <div class="case-card__body">
-              <span class="case-card__tag">Executive Stakes</span>
-              <h3 class="case-card__title">
-                High-pressure renewal deliverable secures 3-year exclusivity.
-              </h3>
-              <p class="case-card__text">
-                Turned a weeks-long analysis into a days-long sprint when a
-                cross-functional renewal scoping session consolidated data into
-                a clean executive narrative.
-              </p>
-            </div>
-            <div class="case-card__result">
-              <span
-                class="case-card__result-num"
-                data-count="3"
-                data-suffix="-year"
-                >3-year</span
-              >
-              <span class="case-card__result-label"
-                >Exclusivity agreement<br />multi-million renewal</span
-              >
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Brands strip -->
-    <section class="brands" id="brands">
-      <div class="container">
-        <span class="brands__label"
-          >Brands &amp; Organizations I've Supported</span
+        <!-- WHAT I DO -->
+        <section
+          id="what"
+          class="s-cream section reveal"
+          aria-label="What I do"
         >
-      </div>
-      <div class="brands__viewport">
-        <div class="brands__track" id="brandsTrack">
-          <div class="brands__list">
-            <span class="brand-name">Perkins Restaurant &amp; Bakery</span>
-            <span class="brand-name">European Wax Center</span>
-            <span class="brand-name">Round Table Pizza</span>
-            <span class="brand-name">Yogurtland</span>
-            <span class="brand-name">Subway</span>
-            <span class="brand-name">Goodwill</span>
-            <span class="brand-name">Ideal Image</span>
-            <span class="brand-name">Cabinets To Go</span>
-            <span class="brand-name">Smile Doctors</span>
-            <span class="brand-name">Phantom Fireworks</span>
-            <span class="brand-name">SESAC Music Licensing</span>
-            <span class="brand-name">Paul Martin's American Grill</span>
-            <span class="brand-name">ABC Home &amp; Commercial</span>
-            <span class="brand-name">Colton's Steakhouse</span>
-            <span class="brand-name">The Melt</span>
-            <span class="brand-name">Robeks</span>
+          <p class="eyebrow">What I do</p>
+          <h2 class="sec-title">What I bring to the table.</h2>
+          <div class="what-grid">
+            <div class="what-col">
+              <h3 class="what-col-title">Marketing Strategy</h3>
+              <div class="what-item">
+                <div class="what-item-title">Customer Journey Mapping</div>
+                <div class="what-item-body">
+                  Designing for the gaps before campaigns launch, not after they
+                  underperform.
+                </div>
+              </div>
+              <div class="what-item">
+                <div class="what-item-title">
+                  Behavioral Segmentation &amp; RFM
+                </div>
+                <div class="what-item-body">
+                  Audience tiers built from recency, frequency, and monetary
+                  value to tailor messaging to lifecycle stage.
+                </div>
+              </div>
+              <div class="what-item">
+                <div class="what-item-title">
+                  Multi-Channel Campaign Strategy
+                </div>
+                <div class="what-item-body">
+                  Digital, direct mail, email, social, as a coordinated
+                  sequence, not parallel noise.
+                </div>
+              </div>
+              <div class="what-item">
+                <div class="what-item-title">
+                  Retention &amp; Lifecycle Marketing
+                </div>
+                <div class="what-item-body">
+                  Win-back programs and lapsed customer strategy that meet
+                  people where they actually are.
+                </div>
+              </div>
+            </div>
+            <div class="what-col">
+              <h3 class="what-col-title">
+                Operations &amp; Project Management
+              </h3>
+              <div class="what-item">
+                <div class="what-item-title">End-to-End Project Delivery</div>
+                <div class="what-item-body">
+                  Scoping, timelines, budgets, risk, cross-functional execution,
+                  nothing falls through the cracks.
+                </div>
+              </div>
+              <div class="what-item">
+                <div class="what-item-title">Workflow Design &amp; SOPs</div>
+                <div class="what-item-body">
+                  Infrastructure that makes teams faster and less dependent on
+                  heroics.
+                </div>
+              </div>
+              <div class="what-item">
+                <div class="what-item-title">Stakeholder Communication</div>
+                <div class="what-item-body">
+                  Complex status translated into what leaders need to make
+                  decisions. No surprises.
+                </div>
+              </div>
+              <div class="what-item">
+                <div class="what-item-title">
+                  Data &amp; Performance Reporting
+                </div>
+                <div class="what-item-body">
+                  Tableau dashboards and KPI tracking. Right questions before
+                  the report is pulled.
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="brands__list" aria-hidden="true">
-            <span class="brand-name">Perkins Restaurant &amp; Bakery</span>
-            <span class="brand-name">European Wax Center</span>
-            <span class="brand-name">Round Table Pizza</span>
-            <span class="brand-name">Yogurtland</span>
-            <span class="brand-name">Subway</span>
-            <span class="brand-name">Goodwill</span>
-            <span class="brand-name">Ideal Image</span>
-            <span class="brand-name">Cabinets To Go</span>
-            <span class="brand-name">Smile Doctors</span>
-            <span class="brand-name">Phantom Fireworks</span>
-            <span class="brand-name">SESAC Music Licensing</span>
-            <span class="brand-name">Paul Martin's American Grill</span>
-            <span class="brand-name">ABC Home &amp; Commercial</span>
-            <span class="brand-name">Colton's Steakhouse</span>
-            <span class="brand-name">The Melt</span>
-            <span class="brand-name">Robeks</span>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section
+          id="experience"
+          class="section reveal"
+          style="background: #eef3f8"
+          aria-label="Work experience"
+        >
+          <p class="eyebrow">Experience</p>
+          <h2 class="sec-title">Where I've done this work.</h2>
+
+          <div class="exp-item">
+            <div class="exp-date">2023 – Present</div>
+            <div>
+              <div class="exp-role">Senior Client Services Manager</div>
+              <div class="exp-co">Triadex Services</div>
+              <ul class="exp-bullets">
+                <li>
+                  Owned $15M+ in campaigns end to end, from the first brief to
+                  the final report, across 15+ concurrent accounts
+                </li>
+                <li>
+                  Evolved into a more strategic role over time, moving beyond
+                  execution to leading client strategy, shaping how campaigns
+                  were approached, and contributing to higher-level planning
+                  decisions
+                </li>
+                <li>
+                  Applied customer segmentation and RFM analysis to sharpen
+                  targeting and improve campaign relevance, identifying
+                  opportunities the data was pointing to that hadn't been
+                  explored yet
+                </li>
+                <li>
+                  Synthesized campaign performance into clear, decision-ready
+                  reports for senior leadership and client stakeholders
+                </li>
+                <li>
+                  Served as the primary day-to-day contact for a portfolio of
+                  national brand clients, managing relationships, expectations,
+                  and deliverables simultaneously
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-date">2019 – 2023</div>
+            <div>
+              <div class="exp-role">
+                Client Services Manager / Marketing Specialist
+              </div>
+              <div class="exp-co">Triadex Services</div>
+              <ul class="exp-bullets">
+                <li>
+                  Ran multi-channel campaigns across digital, email, and direct
+                  mail for national brands, coordinating everything from intake
+                  to delivery
+                </li>
+                <li>
+                  Built the processes and systems from the ground up, starting
+                  with Excel-based tracking and evolving into Smartsheet,
+                  creating the SOPs and workflows the team still runs on today
+                </li>
+                <li>
+                  Managed vendor relationships and oversaw quality control of
+                  marketing assets, ensuring every campaign went out accurately
+                  and on brand
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-date">2017 – 2019</div>
+            <div>
+              <div class="exp-role">
+                Marketing Coordinator / Operations Assistant
+              </div>
+              <div class="exp-co">
+                Perian Management &nbsp;·&nbsp; 60+ franchise locations
+              </div>
+              <ul class="exp-bullets">
+                <li>
+                  Built and executed multi-channel local marketing campaigns
+                  across digital, social, direct mail, and B2B channels, working
+                  in-house alongside store managers and leadership teams
+                </li>
+                <li>
+                  Supported marketing operations and day-to-day needs across 60+
+                  locations, acting as the central point of coordination between
+                  the marketing function and store-level teams
+                </li>
+                <li>
+                  Analyzed campaign performance and presented insights to
+                  leadership to support planning and decision-making
+                </li>
+                <li>
+                  Coordinated community events, brand activations, and vendor
+                  relationships to drive traffic and local awareness
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section
+          id="projects"
+          class="section reveal"
+          style="background: #f2eae0"
+          aria-label="Case studies"
+        >
+          <p class="eyebrow">Selected projects</p>
+          <h2 class="sec-title">Work I'm proud of.</h2>
+          <div class="cs-grid">
+            <article class="cs-card">
+              <div class="cs-top">
+                <p class="cs-tag">Process &amp; Operations</p>
+                <h3 class="cs-title">
+                  Built a project management system from the ground up
+                </h3>
+                <div class="star-row">
+                  <div class="star-label">
+                    <div class="star-dot" style="background: #3a7ebf">S</div>
+                    Situation
+                  </div>
+                  <p class="star-text">
+                    When I joined, there was no PM system in place. Work was
+                    tracked inconsistently and leadership had no visibility into
+                    priorities or progress.
+                  </p>
+                </div>
+                <div class="star-row">
+                  <div class="star-label">
+                    <div class="star-dot" style="background: #2a6aaa">A</div>
+                    Action
+                  </div>
+                  <p class="star-text">
+                    I built a tracking system in Excel and launched weekly team
+                    meetings to create structure. As needs grew, I migrated us
+                    to Smartsheet and eventually Asana, driving adoption at each
+                    stage.
+                  </p>
+                </div>
+                <div class="star-row">
+                  <div class="star-label">
+                    <div class="star-dot" style="background: #1a5a9a">R</div>
+                    Result
+                  </div>
+                  <p class="star-text">
+                    Leadership gained visibility into project status they didn't
+                    have before. The team had clearer priorities each day and a
+                    consistent way to take on and track new work.
+                  </p>
+                </div>
+              </div>
+              <div class="cs-result">
+                <span class="cs-metric">3x</span>
+                <span class="cs-label"
+                  >Systems evolved, Excel to Smartsheet to Asana, improving
+                  visibility at each stage</span
+                >
+              </div>
+            </article>
+
+            <article class="cs-card">
+              <div class="cs-top">
+                <p class="cs-tag">Client Relationship, Persistence</p>
+                <h3 class="cs-title">
+                  A 10-year client was at risk. Four months later, we had them
+                  back.
+                </h3>
+                <div class="star-row">
+                  <div class="star-label">
+                    <div class="star-dot" style="background: #3a7ebf">S</div>
+                    Situation
+                  </div>
+                  <p class="star-text">
+                    A restaurant client generating around $2M annually parted
+                    ways with their agency, which had been our primary contact.
+                    After a few follow-ups without a response, it became clear
+                    we needed to find another way in.
+                  </p>
+                </div>
+                <div class="star-row">
+                  <div class="star-label">
+                    <div class="star-dot" style="background: #2a6aaa">A</div>
+                    Action
+                  </div>
+                  <p class="star-text">
+                    I tracked down the new agency and spent 3 months building
+                    trust through repeated conversations about our history and
+                    data expertise. When another vendor failed, I coordinated
+                    internally to step in and resolve it within a month.
+                  </p>
+                </div>
+                <div class="star-row">
+                  <div class="star-label">
+                    <div class="star-dot" style="background: #1a5a9a">R</div>
+                    Result
+                  </div>
+                  <p class="star-text">
+                    We got them back, for the crisis and for regular ongoing
+                    business. Both the client and new agency reached out
+                    personally to express their gratitude.
+                  </p>
+                </div>
+              </div>
+              <div class="cs-result">
+                <span class="cs-metric">$2M</span>
+                <span class="cs-label"
+                  >Annual revenue retained, relationship fully restored</span
+                >
+              </div>
+            </article>
+
+            <article class="cs-card">
+              <div class="cs-top">
+                <p class="cs-tag">Segmentation &amp; Data Strategy</p>
+                <h3 class="cs-title">
+                  Four years into acquisition success, I asked: what about the
+                  customers we already have?
+                </h3>
+                <div class="star-row">
+                  <div class="star-label">
+                    <div class="star-dot" style="background: #3a7ebf">S</div>
+                    Situation
+                  </div>
+                  <p class="star-text">
+                    A home services client had focused entirely on new customer
+                    acquisition for about 3 years. We had consistently hit and
+                    exceeded their goals, but I kept seeing untapped potential
+                    in the customers they already had.
+                  </p>
+                </div>
+                <div class="star-row">
+                  <div class="star-label">
+                    <div class="star-dot" style="background: #2a6aaa">A</div>
+                    Action
+                  </div>
+                  <p class="star-text">
+                    I introduced targeting known customers to upsell services
+                    and reactivate inactive ones. The trust built through
+                    consistently strong results gave me the credibility to get
+                    them to test it, even though they were hesitant at first.
+                  </p>
+                </div>
+                <div class="star-row">
+                  <div class="star-label">
+                    <div class="star-dot" style="background: #1a5a9a">R</div>
+                    Result
+                  </div>
+                  <p class="star-text">
+                    The new customer groups outperformed the existing
+                    acquisition groups by approximately 3x, successfully
+                    reactivating lapsed customers and improving RFM scores
+                    across the board. It opened up a full lifecycle dimension to
+                    their marketing strategy that hadn't existed before.
+                  </p>
+                </div>
+              </div>
+              <div class="cs-result">
+                <span class="cs-metric">~3x</span>
+                <span class="cs-label"
+                  >Performance lift vs. acquisition groups</span
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- BRANDS -->
+        <div class="brands-strip" aria-label="Brands supported">
+          <p class="brands-label">Industries &amp; Brands I've Supported</p>
+          <div class="brands-industries">
+            Restaurants &nbsp;·&nbsp; Beauty &nbsp;·&nbsp; Wellness
+            &nbsp;·&nbsp; Dental &nbsp;·&nbsp; Orthodontics &nbsp;·&nbsp; Retail
+            &nbsp;·&nbsp; Home Services &nbsp;·&nbsp; Automotive
+          </div>
+          <div class="brands-list">
+            <span class="brand-item">Perkins Restaurant &amp; Bakery</span>
+            <span class="brand-item">European Wax Center</span>
+            <span class="brand-item">Round Table Pizza</span>
+            <span class="brand-item">Yogurtland</span>
+            <span class="brand-item">Subway</span>
+            <span class="brand-item">Goodwill</span>
+            <span class="brand-item">Ideal Image</span>
+            <span class="brand-item">Cabinets To Go</span>
+            <span class="brand-item">Smile Doctors</span>
+            <span class="brand-item">Phantom Fireworks</span>
+            <span class="brand-item">SESAC Music Licensing</span>
+            <span class="brand-item">Paul Martin's American Grill</span>
+            <span class="brand-item">Colton's Steakhouse</span>
+            <span class="brand-item">ABC Home &amp; Commercial</span>
+            <span class="brand-item">Robeks</span>
+            <span class="brand-item">The Melt</span>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Tools -->
-    <section class="tools section" id="tools">
-      <div class="container">
-        <span class="section__label">Tools</span>
-        <h2 class="section__title">Tools I work in every day.</h2>
-        <div class="tools__grid">
-          <div class="tools-group" data-animate>
-            <span class="tools-group__label">Project Management</span>
-            <ul class="tools-group__list">
-              <li>Smartsheet</li>
-              <li>Asana</li>
-              <li>JIRA</li>
-              <li>Confluence</li>
-            </ul>
+        <!-- TOOLS -->
+        <section
+          id="tools"
+          class="section reveal"
+          style="background: #1e3a54"
+          aria-label="Tools and skills"
+        >
+          <p class="eyebrow eyebrow-d">Tools &amp; systems</p>
+          <h2 class="sec-title-d">The tools behind the work.</h2>
+          <div class="tools-grid">
+            <div>
+              <p class="tool-label">Project management</p>
+              <p class="tool-item">Smartsheet</p>
+              <p class="tool-item">Asana</p>
+              <p class="tool-item">JIRA</p>
+              <p class="tool-item">Confluence</p>
+            </div>
+            <div>
+              <p class="tool-label">Data &amp; analytics</p>
+              <p class="tool-item">Tableau</p>
+              <p class="tool-item">Excel (advanced)</p>
+              <p class="tool-item">Google Sheets</p>
+              <p class="tool-item">HubSpot</p>
+            </div>
+            <div>
+              <p class="tool-label">Collaboration</p>
+              <p class="tool-item">Microsoft Teams</p>
+              <p class="tool-item">SharePoint</p>
+              <p class="tool-item">Google Workspace</p>
+              <p class="tool-item">Zoom</p>
+            </div>
+            <div>
+              <p class="tool-label">Creative &amp; content</p>
+              <p class="tool-item">Canva</p>
+              <p class="tool-item">Adobe Suite</p>
+              <p class="tool-item">Microsoft Office</p>
+              <p class="tool-item">PowerPoint</p>
+            </div>
           </div>
-          <div class="tools-group" data-animate>
-            <span class="tools-group__label">Reporting &amp; Data</span>
-            <ul class="tools-group__list">
-              <li>Tableau</li>
-              <li>Excel (advanced)</li>
-              <li>Google Sheets</li>
-            </ul>
-          </div>
-          <div class="tools-group" data-animate>
-            <span class="tools-group__label">Collaboration</span>
-            <ul class="tools-group__list">
-              <li>Microsoft Teams</li>
-              <li>SharePoint</li>
-              <li>Google Workspace</li>
-              <li>HubSpot</li>
-            </ul>
-          </div>
-          <div class="tools-group" data-animate>
-            <span class="tools-group__label">Creative &amp; Content</span>
-            <ul class="tools-group__list">
-              <li>Canva</li>
-              <li>Adobe Suite</li>
-              <li>Microsoft Office</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- Contact -->
-    <section class="contact section" id="contact">
-      <div class="container" data-animate>
-        <span class="section__label">Get In Touch</span>
-        <h2 class="contact__title">Let's work together.</h2>
-        <p class="contact__body">
-          I'm open to project management roles across industries — anywhere
-          complex, cross-functional work needs to get done well. If that sounds
-          like a fit, I'd love to connect.
-        </p>
-        <div class="contact__links">
-          <a href="mailto:christina.sookhoo@yahoo.com" class="text-link"
-            >Email Me &rarr;</a
-          >
-          <a
-            href="https://www.linkedin.com/in/christina-sookhoo/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-link"
-            >LinkedIn &rarr;</a
-          >
-        </div>
-      </div>
-    </section>
+        <!-- CONTACT -->
+        <section
+          id="contact"
+          class="section reveal"
+          style="
+            background: #163050;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+          "
+          aria-label="Contact"
+        >
+          <p class="eyebrow eyebrow-d">Get in touch</p>
+          <h2 class="sec-title-d">Let's work together.</h2>
+          <p class="body-dark" style="max-width: 480px">
+            I'm looking for in-house marketing and project management roles
+            where I can bring both strategic thinking and operational discipline
+            to a team that values clarity, follow-through, and doing great work.
+            If that sounds like a fit, I'd love to connect.
+          </p>
+          <div style="margin-top: 24px">
+            <a
+              href="mailto:christina.sookhoo@yahoo.com"
+              class="cta-link cta-inv"
+              >Email me</a
+            >
+            <a
+              href="https://www.linkedin.com/in/christina-sookhoo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cta-link cta-inv"
+              >LinkedIn</a
+            >
+          </div>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container footer__inner">
-        <span>&copy; 2026 Christina Sookhoo</span>
-        <span>Los Angeles, CA</span>
-      </div>
-    </footer>
-
-    <!-- Back to top -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">
-      <svg
-        width="18"
-        height="18"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path d="M18 15l-6-6-6 6" />
-      </svg>
-    </button>
+        <footer>
+          <span>© 2026 Christina Sookhoo</span>
+          <span>Los Angeles, CA</span>
+        </footer>
+      </main>
+    </div>
 
     <script src="js/main.js"></script>
   </body>
